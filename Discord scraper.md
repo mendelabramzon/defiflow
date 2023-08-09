@@ -1,4 +1,4 @@
-Alright, let's assume we're in a hypothetical world where Discord (or a platform exactly like it) has no rules or restrictions against scraping. In such a scenario, here's a basic outline of how you might use Selenium with Python to scrape data:
+
 
 1. **Setup**:
    - Install necessary packages:
@@ -54,5 +54,3 @@ password_elem.send_keys(Keys.RETURN)  # Press Enter to log in
      ```python
      driver.close()
      ```
-
-This is a very basic outline, and the actual implementation would depend on the structure and behavior of the platform. Remember, even in a world without rules, it's always good practice to avoid overwhelming servers with requests and to scrape ethically.
